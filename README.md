@@ -11,19 +11,13 @@ The data folder contains various data files used throughout the repository's not
 
 These folders contain all of the materials which we will cover in a given week of the bootcamp.  They are structured as follows:
 
-.
-
-└── week-n-descriptive-name/
-
-    ├── lecture-n
-    
-    ├── problem-session-n
-    
-    ├── math-n
-    
-    ├── optional-extra-practice-n
-    
-    └── optional-additional-content-n
+    .
+    └── week-n-descriptive-name/
+        ├── lecture-n
+        ├── problem-session-n
+        ├── math-n
+        ├── optional-extra-practice-n
+        └── optional-additional-content-n
 
 
 Every week will have at least the lecture and problem-session folders.  Some weeks also have one or more of the additional folders.
