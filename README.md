@@ -7,24 +7,44 @@ This repository contains the materials for the Spring 2024 edition of the Erdős
 
 The data folder contains various data files used throughout the repository's notebooks.
 
-## lectures
+## Weeks
 
-This folder contains the lecture jupyter notebooks for the boot camp. Each lecture will have a blank version of the notebook as well as a "complete" version of the notebook. The complete notebooks match the notebooks seen in the pre-recorded lecture videos on the boot camp's website. The blank versions are for you to complete on your own. Feel free to practice or take notes with these versions of the notebooks. 
+These folders contain all of the materials which we will cover in a given week of the bootcamp.  They are structured as follows:
 
-Notebooks that were covered in a live lecture will also have a lecture version (uploaded shortly after the lecture is completed), this version of the notebook will contain all of the notes from the live lecture.
+.
+└── week-n-descriptive-name/
+    ├── lecture-n
+    ├── problem-session-n
+    ├── math-n
+    ├── optional-extra-practice-n
+    └── optional-additional-content-n
 
-## problem-sessions
+Every week will have at least the lecture and problem-session folders.  Some weeks also have one or more of the additional folders.
 
-This folder contains the jupyter notebooks used in our problem solving sessions. You can also find "prep" notebooks in this folder. Prep notebooks are for those participants wishing to have additional practice prior to the correspong problem solving session. Prep notebooks are optional.
+### lecture-n
 
-## practice-problems
+These folders contain the lecture jupyter notebooks for the boot camp. Each lecture will have a blank version of the notebook as well as a "complete" version of the notebook. The complete notebooks match the notebooks seen in the pre-recorded lecture videos on the boot camp's website. The blank versions are for you to complete on your own. Feel free to practice or take notes with these versions of the notebooks. 
 
-This folder contains jupyter notebooks that hold problems you can work on for practice. Each notebook will have an accompanying solution notebook. <i>Note</i>, these notebooks are not mandatory, they just exist as a way for you to test yourself on the material covered in lecture.
+### problem-session-n
+
+These folders contain the jupyter notebooks used in our problem solving sessions.  Note that problem solving sessions are **synchronous**. You can also find "prep" notebooks in this folder. Prep notebooks are for those participants wishing to have additional practice prior to the correspong problem solving session. They will remind you of some python fundamentals which will be needed to complete the problem session.  Prep notebooks are optional.
+
+### math-n
+
+These folders contain supplemental expositions of the mathematics underlying some of the content from the lecture.  They are also optional.  We will discuss these notebooks during "math hour".
+
+### optional-extra-practice-n
+
+These folders contain jupyter notebooks that hold problems you can work on for practice. Each notebook has an accompanying solution notebook. <i>Note</i>, these notebooks are not mandatory, they just exist as a way for you to test yourself on the material covered in lecture.  Think of them as an extra **asynchronous** problem session you can use just to build up your skills.
+
+### optional-additional-content-n
+
+These folders contain notebooks which are similar to the lecture notebooks, but cover content we will not be able to fit into the live bootcamp.
 
 
 -------------------------
 Copyright Info
 
-This repository was written for the 2023 Erdős Institute Data Science Boot Camp by Matthew Osborne, Ph. D., 2023.
+This repository was written for the 2023 Erdős Institute Data Science Boot Camp by Matthew Osborne, Ph. D., in 2023 and modified by Steven Gubkin in 2024.
 
-Any potential redistributors must seek and receive permission from Matthew Tyler Osborne, Ph.D. prior to redistribution. Redistribution of the material contained in this repository is conditional on acknowledgement of Matthew Tyler Osborne, Ph.D.'s original authorship and sponsorship of the Erdős Institute. (see License.md)
+Any potential redistributors must seek and receive permission from Matthew Tyler Osborne and Steven Gubkin prior to redistribution. Redistribution of the material contained in this repository is conditional on acknowledgement of Matthew Tyler Osborne original authorship and sponsorship of the Erdős Institute. (see License.md)
