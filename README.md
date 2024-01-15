@@ -3,7 +3,33 @@
 
 This repository contains the materials for the Spring 2024 edition of the Erdős Institute's Data Science Boot Camp programming, https://www.erdosinstitute.org/programs/spring-2023/data-science-boot-camp. To learn more about the boot camp visit that website. Below we will provide a breakdown of the contents of this repository, see the README file in each folder for a more detailed description.
 
-## data
+## erdos_sp_2024 conda environment
+
+If you want the most streamlined expereince possible this semester, you should set up an erdos_sp_2024 conda environment and run all of the notebooks with this environment.
+
+Check to make sure you have conda by running the following in your command line interface:
+
+    conda --version
+
+If you don't have conda, google how to install it!
+
+Once you have conda run:
+
+    conda env create --name erdos_sp_2024 --file=erdos_sp_2024.yml
+
+Press [y] to all of the prompts.  You will be downloading a lot of packages.
+
+Once this is done:
+
+    conda activate erdos_sp_2024
+
+To check everything is working:
+
+    conda list
+
+Should show all of the packages!
+
+## Data
 
 The data folder contains various data files used throughout the repository's notebooks.
 
