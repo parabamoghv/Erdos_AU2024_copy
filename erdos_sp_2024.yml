@@ -1,0 +1,16 @@
+name: erdos_sp_2024
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pandas
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - requests
+  - bs4
+  - scikit-learn
+  - xgboost
+  - keras
+  - tensorflow
