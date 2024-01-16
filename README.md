@@ -29,6 +29,10 @@ To check everything is working:
 
 Should show all of the packages!
 
+If you are using Anaconda Navigator see https://docs.anaconda.com/free/navigator/tutorials/manage-environments/.
+
+If you are using Visual Studio Code just select erdos_sp_2024 as the kernel when running the notebooks.
+
 ## Data
 
 The data folder contains various data files used throughout the repository's notebooks.
