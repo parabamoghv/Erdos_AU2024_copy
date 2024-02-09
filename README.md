@@ -1,6 +1,8 @@
 # Erdős Institute Data Science Boot Camp
 ## Spring 2024 Edition
 
+This change is being made for the purposes of an instructional video and will be deleted.
+
 This repository contains the materials for the Spring 2024 edition of the Erdős Institute's Data Science Boot Camp programming, https://www.erdosinstitute.org/programs/spring-2023/data-science-boot-camp. To learn more about the boot camp visit that website. Below we will provide a breakdown of the contents of this repository, see the README file in each folder for a more detailed description.
 
 ## erdos_sp_2024 conda environment
