@@ -17,7 +17,7 @@ If you don't have conda, google how to install it!
 
 Once you have conda run:
 
-    conda env create --name erdos_sp_2024 --file=erdos_may_2024.yml
+    conda env create --name erdos_may_2024 --file=erdos_may_2024.yml
 
 Press [y] to all of the prompts.  You will be downloading a lot of packages.
 
