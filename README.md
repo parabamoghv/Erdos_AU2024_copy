@@ -25,11 +25,18 @@ Once this is done:
 
     conda activate erdos_may_2024
 
-To check everything is working:
+To check everything is there:
 
     conda list
 
 Should show all of the packages!
+
+Finally "run all" on the following notebooks.  Each notebook might take a minute or two to run, but this is a thorough check that all of the packages are working correctly:
+
+* `02_data_collection/problem_session_2/1_Problem_Session_2_Complete.ipynb`
+* `07_time_series_II/problem_session_7/1_Problem_Session_7_Complete.ipynb`
+* `11_ensemble_II/problem_session_11/Problem_Session_Complete.ipynb`
+* `12_neural_networks/problem_session_12/1_Problem_Session_12_Complete.ipynb`
 
 If you are using Anaconda Navigator see https://docs.anaconda.com/free/navigator/tutorials/manage-environments/.
 
