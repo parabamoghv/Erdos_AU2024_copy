@@ -1,13 +1,13 @@
 # Erdős Institute Data Science Boot Camp
-## May-Summer 2024 Edition
+## Fall 2024 Edition
 
-This repository contains the materials for the May-Summer 2024 edition of the Erdős Institute's Data Science Boot Camp programming
+This repository contains the materials for the Fall 2024 edition of the Erdős Institute's Data Science Boot Camp programming
 
-[https://www.erdosinstitute.org/programs/spring-2023/data-science-boot-camp](https://www.erdosinstitute.org/programs/may-summer-2024/data-science-boot-camp) 
+[https://www.erdosinstitute.org/programs/fall-2024/data-science-boot-camp](https://www.erdosinstitute.org/programs/fall-2024/data-science-boot-camp) 
 
-## erdos_may_2024 conda environment
+## erdos_fall_2024 conda environment
 
-If you want the most streamlined expereince possible this semester, you should set up an erdos_may_2024 conda environment and run all of the notebooks with this environment.
+You should set up an erdos_fall_2024 conda environment and run all of the notebooks with this environment.
 
 Check to make sure you have conda by running the following in your command line interface:
 
@@ -17,13 +17,13 @@ If you don't have conda, google how to install it!
 
 Once you have conda run:
 
-    conda env create --name erdos_may_2024 --file=erdos_may_2024.yml
+    conda env create --file=environment.yml
 
 Press [y] to all of the prompts.  You will be downloading a lot of packages.
 
 Once this is done:
 
-    conda activate erdos_may_2024
+    conda activate erdos_fall_2024
 
 To check everything is there:
 
@@ -31,16 +31,9 @@ To check everything is there:
 
 Should show all of the packages!
 
-Finally "run all" on the following notebooks.  Each notebook might take a minute or two to run, but this is a thorough check that all of the packages are working correctly:
+Finally open `computer_setup_day/find_secret_code` and run the only cell there.  It will give you a numerical output.  Put that output in the textbox at [https://www.erdosinstitute.org/ds-boot-camp-prep](https://www.erdosinstitute.org/ds-boot-camp-prep).  If you set up the conda env correctly it will tell you that you have it set up correctly!  Please do this because us figure out who still needs assistance setting up python/jupyter/conda.
 
-* `02_data_collection/problem_session_2/1_Problem_Session_2_Complete.ipynb`
-* `07_time_series_II/problem_session_7/1_Problem_Session_7_Complete.ipynb`
-* `11_ensemble_II/problem_session_11/Problem_Session_Complete.ipynb`
-* `12_neural_networks/problem_session_12/1_Problem_Session_12_Complete.ipynb`
-
-If you are using Anaconda Navigator see https://docs.anaconda.com/free/navigator/tutorials/manage-environments/.
-
-If you are using Visual Studio Code just select erdos_may_2024 as the kernel when running the notebooks.
+If you are using Visual Studio Code just select erdos_fall_2024 as the kernel when running the notebooks.
 
 ## Data
 
