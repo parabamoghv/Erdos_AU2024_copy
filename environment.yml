@@ -11,7 +11,6 @@ dependencies:
   - py-xgboost
   - python = 3.12
   - scikit-learn >= 1.4
-  - seaborn
   - sqlalchemy
   - xgboost >= 2.0.3
   - pmdarima >= 2.0
@@ -22,3 +21,4 @@ dependencies:
       - pyjokes == 0.6.0
       - plotly == 5.24.0
       - ptitprince
+      - seaborn == 0.13.2
