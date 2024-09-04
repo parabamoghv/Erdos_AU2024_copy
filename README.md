@@ -17,6 +17,12 @@ If you don't have conda, google how to install it!
 
 Once you have conda run:
 
+    conda update conda
+
+Press [y] to all of the prompts.  When you are done check the version again.  It should be version 23 or above.
+
+Then run 
+
     conda env create --file=environment.yml
 
 Press [y] to all of the prompts.  You will be downloading a lot of packages.
@@ -30,6 +36,8 @@ To check everything is there:
     conda list
 
 Should show all of the packages!
+
+If you ever need to add more packages to this environment please refer to the [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#installing-packages).
 
 Finally open `computer_setup_day/find_secret_code` and run the only cell there.  It will give you a numerical output.  Put that output in the textbox at [https://www.erdosinstitute.org/ds-boot-camp-prep](https://www.erdosinstitute.org/ds-boot-camp-prep).  If you set up the conda env correctly it will tell you that you have it set up correctly!  Please do this because us figure out who still needs assistance setting up python/jupyter/conda.
 
